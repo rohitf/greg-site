@@ -1,4 +1,5 @@
 <script>
+	export let data;
 </script>
 
 <svelte:head>
@@ -7,8 +8,11 @@
 </svelte:head>
 
 <main class="w-screen h-screen grid p-8">
-	<img class="ball h-96 shadow-sm rounded-full" src="/greg.jpeg" alt="" />
-	<img src="/excel-logo.png" alt="" />
+	<img
+		class="ball h-96 shadow-sm rounded-full"
+		src="/{data.name}.jpeg"
+		alt=""
+	/>
 </main>
 
 <style>
