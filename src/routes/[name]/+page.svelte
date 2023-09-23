@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Greg's Page</title>
+	<title>{data.name}'s page</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
